@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Quest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .box {
+            background-color: #2c2c44;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>⚔️ Code Quest ⚔️</h1>
+
+    <div class="box">
+        <p id="question">What does HTML stand for?</p>
+
+        <button onclick="checkAnswer('a')">Hyper Text Markup Language</button><br>
+        <button onclick="checkAnswer('b')">High Tech Modern Language</button><br>
+        <button onclick="checkAnswer('c')">Home Tool Markup Language</button>
+
+        <p id="result"></p>
+    </div>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
